@@ -30,9 +30,9 @@ const Contact = () => {
                 <p className="clientDesc">I have work on the various projects.<br></br>
                 some of the notable projects I have worked on includes.</p>
                 <div className="clientImgs">
-                    <img src={PortfolioImg} alt="clients" className="clientImg"/>
-                    <img src={Ecommerce} alt="clients" className="clientImg"/>
-                    <img src={Invitation} alt="clients" className="clientImg"/>
+                    <a href="https://github.com/Utkarsha-Akole/Portfolio" target="_blank" rel="noreferrer"><img src={PortfolioImg} alt="clients" className="clientImg"/></a>
+                    <a href="https://github.com/Utkarsha-Akole/E-Commerce-Website" target="_blank" rel="noreferrer"><img src={Ecommerce} alt="clients" className="clientImg"/></a>
+                    <a href="https://github.com/Utkarsha-Akole/Invitation-Sharing-main" target="_blank" rel="noreferrer"><img src={Invitation} alt="clients" className="clientImg"/></a>
                 </div>
             </div>
             <div id="contact">

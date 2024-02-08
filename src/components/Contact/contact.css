@@ -20,9 +20,14 @@
 }
 
 .clientImgs{
+    padding-top: 20px;
+}
+
+.clientImgs a{
     margin: 1rem 0;
-    display: flex;
-    flex-wrap: wrap;
+    padding: 30px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
 }
 
 .clientImg{
