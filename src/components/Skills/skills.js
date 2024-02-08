@@ -14,14 +14,14 @@ const Skills = () => {
                     <img src={WebDesign} alt="WebDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Web Designer</h2>
-                        <p>Talented and innovative Web Designer with 4 years of experience creating visually stunning and user-friendly websites.</p>
+                        <p>As a web designer, my objective is to make a positive impact on clients, co-workers, and the Internet using my skills and experience to design compelling and attractive websites.</p>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={AppDesign} alt="AppDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Front-end Developer</h2>
-                        <p>Skilled Front-end Developer with 4 years of experience in designing, developing and maintaining front-end web applications</p>
+                        <p> Innovative and detail-oriented Fresher Front End Developer with a passion for creating responsive and user-friendly websites. Skilled in collaborating with back-end developers, utilizing version control systems, and staying up-to-date on emerging technologies.</p>
                     </div>
                 </div>
                 <div className="skillBar">

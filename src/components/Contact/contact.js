@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
 import './contact.css';
-import Walmart from '../../assets/walmart.png';
-import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
+import PortfolioImg from '../../assets/portfolio.png';
+import Ecommerce from '../../assets/ecommerce.jpg';
+import Invitation from '../../assets/invitation.jpg';
 import FacebookIcon from '../../assets/facebook-icon.png';
 import TwitterIcon from '../../assets/twitter.png';
 import YouTubeIcon from '../../assets/youtube.png';
@@ -27,14 +26,13 @@ const Contact = () => {
     return(
         <section id="contactPage">
             <div id="clients">
-                <h1 className="contactPageTitle">My Clients</h1>
-                <p className="clientDesc">I have had the opportunity to eork with a diverse group of companies.
-                some of the notable companies I have worked with includes.</p>
+                <h1 className="contactPageTitle">My Projects</h1>
+                <p className="clientDesc">I have work on the various projects.<br></br>
+                some of the notable projects I have worked on includes.</p>
                 <div className="clientImgs">
-                    <img src={Walmart} alt="clients" className="clientImg"/>
-                    <img src={Adobe} alt="clients" className="clientImg"/>
-                    <img src={Microsoft} alt="clients" className="clientImg"/>
-                    <img src={Facebook} alt="clients" className="clientImg"/>
+                    <img src={PortfolioImg} alt="clients" className="clientImg"/>
+                    <img src={Ecommerce} alt="clients" className="clientImg"/>
+                    <img src={Invitation} alt="clients" className="clientImg"/>
                 </div>
             </div>
             <div id="contact">
