@@ -29,7 +29,7 @@ const Skills = () => {
                     <img src={ReactDev} alt="ReactDev" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>ReactJs Developer</h2>
-                        <p> Innovative and detail-oriented Experienced Front End Developer with a passion for creating responsive and user-friendly websites. Skilled in collaborating with back-end developers, utilizing version control systems, and staying up-to-date on emerging technologies.</p>
+                        <p> React Frontend Developer with 1 year of experience building websites and web applications using ReactJs and modern Javascript tools/frameworks.</p>
                     </div>
                 </div>
                 <div className="skillBar">
