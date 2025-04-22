@@ -3,6 +3,7 @@ import './skills.css';
 import UIDesign from '../../assets/ui-design.png';
 import WebDesign from '../../assets/website-design.png';
 import AppDesign from '../../assets/app-design.png';
+import ReactDev from '../../assets/react_dev.png'
 
 const Skills = () => {
     return(
@@ -21,7 +22,14 @@ const Skills = () => {
                     <img src={AppDesign} alt="AppDesign" className="skillBarImg"/>
                     <div className="skillBarText">
                         <h2>Front-end Developer</h2>
-                        <p> Innovative and detail-oriented Fresher Front End Developer with a passion for creating responsive and user-friendly websites. Skilled in collaborating with back-end developers, utilizing version control systems, and staying up-to-date on emerging technologies.</p>
+                        <p> Innovative and detail-oriented Experienced Front End Developer with a passion for creating responsive and user-friendly websites. Skilled in collaborating with back-end developers, utilizing version control systems, and staying up-to-date on emerging technologies.</p>
+                    </div>
+                </div>
+                <div className="skillBar">
+                    <img src={ReactDev} alt="ReactDev" className="skillBarImg"/>
+                    <div className="skillBarText">
+                        <h2>ReactJs Developer</h2>
+                        <p> Innovative and detail-oriented Experienced Front End Developer with a passion for creating responsive and user-friendly websites. Skilled in collaborating with back-end developers, utilizing version control systems, and staying up-to-date on emerging technologies.</p>
                     </div>
                 </div>
                 <div className="skillBar">
